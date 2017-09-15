@@ -1,0 +1,10 @@
+Three tables need to be obtained from Oracle.
+* FML_TIER1_DISTRIBUTION
+* FML_TIER1_DISTRIBUTION_SB106
+* SDD_TIER1_DISTRIBUTION
+
+Copy the data from these tables into new Excel spreadsheets named FML_TIER1_DISTRIBUTION.XLSX, SEV_DISTRIBUTION_FML_TIER1_SB1061.XLSX
+and SDD_TIER1_DISTRIBUTION.XLSX respectively.
+
+Copy the summarize_data.R script saved in K:/ProjectsMain/EIAF/Scripts to the folder with those spreadsheets, change line 92 to give the
+desired name to your output csv and then run lines 70-92.
