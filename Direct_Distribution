@@ -1,4 +1,4 @@
-Three tables need to be obtained from Oracle.
+Three tables need to be obtained from the Oracle Sev_Distribution user.
 * FML_TIER1_DISTRIBUTION
 * FML_TIER1_DISTRIBUTION_SB106
 * SDD_TIER1_DISTRIBUTION
