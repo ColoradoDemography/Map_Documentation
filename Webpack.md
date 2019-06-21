@@ -8,3 +8,8 @@ If updating a webpack map copied from a repository into Cloud9.
 6. webpack
 
 Only the last 2 lines are necessary when making updates.
+
+*Local development
+
+5. npm run-script build
+6. npx webpack
