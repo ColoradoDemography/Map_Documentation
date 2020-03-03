@@ -13,3 +13,6 @@ Only the last 2 lines are necessary when making updates.
 
 5. npm run-script build
 6. npx webpack
+
+
+To update packages, npm i --save packagename
