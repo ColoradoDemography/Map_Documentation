@@ -1,5 +1,4 @@
 Instructions for creating a comparison between 2010 and 2020 stats by area
-https://www.nhgis.org/geographic-crosswalks
 
 - Import the crosswalk to the geodatabase if it hasn't been already
 - Add the desired 2010 fields to the crosswalk
