@@ -1,0 +1,8 @@
+1. Haley Andreades Vermeer will send a link to a google sheet, download that. It's generally between 2,000 and 3,000 addresses.
+2. Chop the spreadsheet into csvs with 1,000 rows or less, keep the headers.
+3. Go to https://gis.colorado.gov/geocoder/, choose the first csv, set the address field as Street Address, the city field as City and the ZIP Code field as 5-digit Zip Code. Make sure you check the box for Return county field. Download the resulting csv when it becomes available after a couple minutes.
+4. Do this for each of your csvs, refreshing the geocoder page each time (otherwise it will do your last one again). Then combine the geocoded csvs into one large one again and save as excel.
+5. Copy the x_long field into the Geo Code A field, y_lat into Geo Code B, put the to fields together to create coordinates in the Coordinates field,  combine the Street Address, Apartment Number and 5-digit-Zip Code fields to fill the Address field and copy the county into the County Name field.
+6. Identify potential duplicates. Use conditional formatting to find duplicate email addresses, coordinates and addresses and to identify those without a county (which means the address wasn't located). I have generally made the duplicate coordinates yellow because they could be in the same apartment building and then duplicate emails, addresses and those where the address was not found in red.
+7. Send the file back to Haley in a secure format. I would prefer to send it back through google sheets but it loses the duplicate formatting. The other option is in an email with ENCRYPT in the subject line.
+
